@@ -1,0 +1,10 @@
+RuleFired,RuleDescription
+CIT007,"If Gross Income is more than 25% lower compared to last year, 8 risk points are assigned."
+CIT008,"If Gross Profit is more than 15% lower compared to last year, 8 risk points are assigned."
+CIT014,"Detection of abnormal percentage of subtractions (deductions) in relation to gross income. For higher percentages, more risk points are assigned."
+CIT015,"Comparing Gross Income with Gross Sales in VAT returns. If difference is more than 15% of the Gross Income, then 8 risk points are assigned."
+VAT001,"Detecting if use tax is not reported (i.e. equal to Zero)."
+VAT008,"This rule detects taxpayers where VAT Gross Sales increase or decrease more than 25% in consecutive filing periods."
+VAT013,"Detecting taxpayers reporting deductions greater than Gross Sales and assigning 6 risk points."
+VAT016,"This rule detects taxpayers reporting less than 6 % of Gross Sales - Deductions and assigns risk points depending on amount."
+VAT019,"This rule assigns risk points based on Gross Sales volume."
